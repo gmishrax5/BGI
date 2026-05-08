@@ -62,7 +62,7 @@ export default function HomePage() {
       </section>
 
       <section className="py-14 md:py-16">
-        <h2 className="text-center font-display text-3xl font-bold">How DocChain Works</h2>
+        <h2 className="text-center font-display text-3xl font-bold">How TRUSTIFY Works</h2>
         <p className="mb-10 text-center text-[#6B6E9A]">Three steps to tamper-proof document trust.</p>
         <div className="grid gap-8 md:grid-cols-3">
           {steps.map((s, idx) => {
@@ -82,7 +82,7 @@ export default function HomePage() {
 
       <section className="bg-[#F5F6FC] py-24">
         <h2 className="text-center font-display text-3xl font-bold">Trusted Across Every Sector</h2>
-        <p className="mb-10 text-center text-[#6B6E9A]">From universities to hospitals - DocChain works everywhere.</p>
+        <p className="mb-10 text-center text-[#6B6E9A]">From universities to hospitals - TRUSTIFY works everywhere.</p>
         <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
           {sectors.map((item) => {
             const Icon = item.icon;

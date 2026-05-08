@@ -71,7 +71,7 @@ export function VerifyClient() {
         {contractConfig.demoMode ? <span className="mt-3 inline-flex items-center gap-1.5 rounded-lg border border-amber-200 bg-amber-50 px-3 py-1.5 text-xs text-amber-700"><Zap className="h-3.5 w-3.5" />Demo Mode Active - Using sample blockchain data</span> : null}
 
         <div className="mt-6 space-y-4">
-          {!file && !verificationResult ? <EmptyState icon={Search} title="Ready to verify" description="Upload a file and DocChain will validate authenticity instantly." /> : null}
+          {!file && !verificationResult ? <EmptyState icon={Search} title="Ready to verify" description="Upload a file and TRUSTIFY will validate authenticity instantly." /> : null}
           <FileDropzone selectedFile={file} onFileSelect={(next) => { setDemoHash(""); setDemoResult(null); setFile(next); void computeHash(next); }} onClear={() => { setDemoHash(""); setDemoResult(null); setFile(null); resetHash(); reset(); }} />
 
           {process.env.NEXT_PUBLIC_DEMO_MODE === "true" && !computedHash ? (

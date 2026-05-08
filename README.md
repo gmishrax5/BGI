@@ -1,6 +1,6 @@
-# DocChain Frontend
+# TRUSTIFY Frontend
 
-DocChain is a decentralized document authentication frontend built with Next.js App Router.
+TRUSTIFY is a decentralized document authentication frontend built with Next.js App Router.
 
 ## Setup
 
