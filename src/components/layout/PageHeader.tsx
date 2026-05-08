@@ -1,0 +1,1 @@
+export function PageHeader({ title, subtitle }: { title: string; subtitle: string }) { return <div className="mb-6"><h1 className="text-3xl font-bold text-[#1A1B2E]">{title}</h1><p className="mt-2 text-[#6B6E9A]">{subtitle}</p></div>; }

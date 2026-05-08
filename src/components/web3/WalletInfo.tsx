@@ -1,0 +1,1 @@
+"use client"; import { useWallet } from "@/hooks/useWallet"; import { formatAddress } from "@/lib/utils/formatAddress"; export function WalletInfo() { const wallet = useWallet(); return <div className="rounded-xl border border-[#C8CBDE] bg-white p-3 text-sm">Address: {formatAddress(wallet.address)} | Role: {wallet.role}</div>; }

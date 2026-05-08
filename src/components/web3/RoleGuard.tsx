@@ -1,0 +1,1 @@
+export function RoleGuard({ allowed, role, children, fallback }: { allowed: Array<"issuer" | "admin">; role: "public" | "issuer" | "admin"; children: React.ReactNode; fallback?: React.ReactNode }) { return allowed.includes(role as "issuer" | "admin") ? <>{children}</> : <>{fallback}</>; }

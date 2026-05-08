@@ -1,0 +1,1 @@
+export function DocumentCard({ title, status }: { title: string; status: string }) { return <div className="rounded-xl border border-[#C8CBDE] bg-white p-3"><p className="font-medium">{title}</p><p className="text-xs text-[#6B6E9A]">{status}</p></div>; }

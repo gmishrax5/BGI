@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #40415d;
+  --color-secondary: #dddfee;
+  --color-text-primary: #1a1b2e;
+  --color-text-muted: #6b6e9a;
+  --color-text-faint: #9a9bb5;
+  --color-border: #c8cbde;
+  --color-bg-light: #f5f6fc;
+  --color-card: #ffffff;
+  --color-success: #22c55e;
+  --color-danger: #ef4444;
+  --color-warning: #f59e0b;
+  --color-info: #3b82f6;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-bg-light); color: var(--color-text-primary); font-family: var(--font-inter), sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-space-grotesk), sans-serif; letter-spacing: -0.02em; }
+.font-display { font-family: 'Space Grotesk', sans-serif; }
+.mono { font-family: "Fira Code", ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+* { border-color: var(--color-border); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: #DDDFEE; }
+::-webkit-scrollbar-thumb { background: #40415D; border-radius: 99px; }
+
+/* Focus */
+:focus-visible {
+  outline: 2px solid #40415D;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Selection */
+::selection { background: #DDDFEE; color: #40415D; }
