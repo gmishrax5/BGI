@@ -8,16 +8,7 @@ TRUSTIFY is a decentralized document authentication frontend built with Next.js 
 2. Create `.env.local` using the environment variables below.
 3. Run dev server: `npm run dev`
 
-## Environment Variables
 
-- `NEXT_PUBLIC_DOCUMENT_REGISTRY_ADDRESS`
-- `NEXT_PUBLIC_ACCESS_CONTROL_ADDRESS`
-- `NEXT_PUBLIC_CHAIN_ID`
-- `NEXT_PUBLIC_RPC_URL`
-- `NEXT_PUBLIC_EXPLORER_URL`
-- `NEXT_PUBLIC_PINATA_KEY`
-- `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID`
-- `NEXT_PUBLIC_DEMO_MODE=true`
 
 ## Project Structure
 
